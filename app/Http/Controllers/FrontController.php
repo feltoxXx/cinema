@@ -37,6 +37,16 @@ class FrontController extends Controller {
 		return view('reviews');
 	}
 
+	/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function admin()
+	{
+		return view('admin.index');
+	}
+
 	
 
 }
