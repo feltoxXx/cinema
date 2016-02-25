@@ -12,6 +12,12 @@
 */
 
 
+Route::get('controlador','PruebaController@index');
+Route::get('name/{nombre}','PruebaController@nombre');
+
+Route::resource('movie', 'MovieController');
+
+
 //Rutas
 
 Route::get('prueba', function() {
